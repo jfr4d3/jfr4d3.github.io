@@ -19,7 +19,7 @@ li a {
     width: 70px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 14px;
+    padding-top: 20px;
     padding-bottom: 14px;
     text-decoration: none;
     display: inline-block;
@@ -41,7 +41,6 @@ header{
 body{
     margin: 0;
     height: 100%;
-    overflow: hidden;
     background-color:rgb(77, 77, 77);
     font-family:'Readex Pro', sans-serif;
 }

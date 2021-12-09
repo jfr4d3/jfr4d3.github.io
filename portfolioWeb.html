@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Portfolio</title>
 <meta name="description" content="Roughly 155 characters">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="styleHome.css">
 
 <script src="script.js"></script>
 </head>
@@ -12,14 +12,23 @@
     <header>
         <div id="header">
             <ul id="nav_ul">
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
     <div id="start">
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el" width="2850" height="1400" style="width: 100%; height: 100%;"></canvas>
+        </div>
+        <script src="particles.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'scripts/particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+        </script>
         <div class="text_presentation">
             <div id="text">
                 <h1>Hi! I'm Javi</h1>
